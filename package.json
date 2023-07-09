@@ -1,0 +1,29 @@
+{
+  "name": "chat-log",
+  "version": "1.0.0",
+  "description": "Realtime chat app with room",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmarVilegave/Chat-log.git"
+  },
+  "author": "Amar Vilegave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmarVilegave/Chat-log/issues"
+  },
+  "homepage": "https://github.com/AmarVilegave/Chat-log#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.7.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
